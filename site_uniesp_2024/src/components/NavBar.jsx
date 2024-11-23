@@ -39,6 +39,9 @@ const Navbar = () => {
             <Button color="inherit" component={Link} to="/admin-noticias">
               Admin
             </Button>
+            <Button color="inherit" component={Link} to="/contato">
+              Contato
+            </Button>
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             {/* Box visível em telas menores, com ícone de menu */}

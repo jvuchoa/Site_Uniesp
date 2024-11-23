@@ -20,7 +20,7 @@ const Faculdade = () => {
         <Grid item xs={12} md={4}>
           <Paper elevation={3} sx={{ p: 3, backgroundColor: '#ffffff', borderRadius: '8px', textAlign: 'center' }}>
             <img
-              src="https://images.unsplash.com/photo-1556761175-4b46a572b786?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDJ8fGNvbGxlZ2V8ZW58MHx8fHwxNjI2NzUwNzY0&ixlib=rb-1.2.1&q=80&w=400"
+              src="https://www.termometrodapolitica.com.br/base/wp-content/uploads/e829da902d68c919dcd97a3fba5e12dc.jpg"
               alt="Campus Life"
               style={{ width: '100%', borderRadius: '8px' }}
             />
@@ -36,7 +36,7 @@ const Faculdade = () => {
         <Grid item xs={12} md={4}>
           <Paper elevation={3} sx={{ p: 3, backgroundColor: '#ffffff', borderRadius: '8px', textAlign: 'center' }}>
             <img
-              src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDJ8fGxpYnJhcnl8ZW58MHx8fHwxNjI2NzUwODE2&ixlib=rb-1.2.1&q=80&w=400"
+              src="https://www.iesp.edu.br/sistema/uploads/imagens/biblioteca/galeria/biblioteca-5-20190315052348.jpg"
               alt="Library"
               style={{ width: '100%', borderRadius: '8px' }}
             />
@@ -52,7 +52,7 @@ const Faculdade = () => {
         <Grid item xs={12} md={4}>
           <Paper elevation={3} sx={{ p: 3, backgroundColor: '#ffffff', borderRadius: '8px', textAlign: 'center' }}>
             <img
-              src="https://images.unsplash.com/photo-1652974731232-efc86a9bd985?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://www.iesp.edu.br/sistema/uploads/imagens/cursos/galeria/bloco-central-2-20200921084659.jpg"
               alt="Main Building"
               style={{ width: '100%', borderRadius: '8px' }}
             />
