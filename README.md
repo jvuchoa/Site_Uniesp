@@ -32,25 +32,31 @@ Este é um projeto desenvolvido para a disciplina de Tecnoligia para Front-End A
 ---
 
 ## Estrutura do Projeto
-── data
- │   ├── db.json #Estrutura do Banco de Dados. O arquivo db.json é utilizado pelo json-server
-── public/
-── src/
-│   ── components/ # Componentes reutilizáveis no projeto 
-│     │── BannerAd.jsx # Utilizado para propagandas ou informativos.
-│     │── NavBar.jsx # Usado para navegação entre páginas.
-│   ── pages/            # Páginas principais do site
-│   ──admin/
-│        ├── AdminNoticias.jsx   # Página de administração das notícias
-│        ├── CadastroNoticia.jsx # Página para cadastrar notícias
-│        ├── EditarNoticia.jsx   # Página para editar notícias
-│     ├── Contato.jsx # Página de contato com a Instituição
-│     ├── DpoLgpd.jsx # 
-│     ├── Faculdade.jsx # Página para a informações gerais.
-│     ├── Inicial.jsx # Página Inicial conm informações básicas da Instituição
-│     ├── Noticias.jsx # Página de notícias da instituição
-│     ├── VizualizaNoticia.jsx # responsável por exibir os detalhes de uma notícia específica. Ele utiliza o React Router para indentificar o ID e faz uma requisição na API para pegar os dados.
-│   ├── App.jsx           # Arquivo principal que gerencia as rotas
-│   ├── index.jsx         # Ponto de entrada do React
-├── package.json          # Arquivo de configuração do projeto
-└── README.md             # Documentação do projeto
+## Estrutura de Pastas
+
+```plaintext
+.
+├── data/
+│   ├── db.json                # Estrutura do Banco de Dados. Utilizado pelo json-server.
+├── public/
+├── src/
+│   ├── components/            # Componentes reutilizáveis no projeto
+│   │   ├── BannerAd.jsx       # Utilizado para propagandas ou informativos.
+│   │   ├── NavBar.jsx         # Usado para navegação entre páginas.
+│   ├── pages/                 # Página principais do site
+│   │   ├── admin/
+│   │   │   ├── AdminNoticias.jsx   # Página de administração das notícias.
+│   │   │   ├── CadastroNoticia.jsx # Página para cadastrar notícias.
+│   │   │   ├── EditarNoticia.jsx   # Página para editar notícias.
+│   │   ├── Contato.jsx             # Página de contato com a Instituição.
+│   │   ├── DpoLgpd.jsx             # Página com informações sobre LGPD.
+│   │   ├── Faculdade.jsx           # Página com informações gerais sobre a instituição.
+│   │   ├── Inicial.jsx             # Página inicial com informações básicas da Instituição.
+│   │   ├── Noticias.jsx            # Página de notícias da instituição.
+│   │   ├── VisualizaNoticia.jsx    # Exibe os detalhes de uma notícia específica
+│   │   │                           # Utiliza React Router para identificar o ID e fazer requisição na API.
+│   ├── App.jsx                 # Arquivo principal que gerencia as rotas.
+│   ├── index.jsx               # Ponto de entrada do React.
+├── package.json                # Arquivo de configuração do projeto.
+└── README.md                   # Documentação do projeto.
+
