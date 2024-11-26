@@ -32,7 +32,7 @@ Este é um projeto desenvolvido para a disciplina de Tecnoligia para Front-End A
 ---
 
 ## Estrutura do Projeto
-## Estrutura de Pastas
+
 
 ```plaintext
 .
