@@ -11,7 +11,7 @@ Este é um projeto desenvolvido para a disciplina de Tecnoligia para Front-End A
  - Material-UI (MUI): Fornece componentes prontos e estilizados, como botões e campos de texto.
  - JSON-Server: Simula um backend RESTful para armazenar e manipular dados das notícias.
  - Vite: Configura o ambiente de desenvolvimento e build rápido.
-
+ - @heroicons
 
 -Funcionalidades do Projeto:
 
