@@ -53,7 +53,7 @@ Este é um projeto desenvolvido para a disciplina de Tecnoligia para Front-End A
 │   │   ├── Faculdade.jsx           # Página com informações gerais sobre a instituição.
 │   │   ├── Inicial.jsx             # Página inicial com informações básicas da Instituição.
 │   │   ├── Noticias.jsx            # Página de notícias da instituição.
-│   │   ├── VisualizaNoticia.jsx    # Exibe os detalhes de uma notícia específica
+│   │   ├── VisualizaNoticia.jsx    # responsável por exibir os detalhes de uma notícia específica. Ele utiliza o React Router para indentificar o ID e faz uma requisição na API para pegar os dados. 
 │   │   │                           # Utiliza React Router para identificar o ID e fazer requisição na API.
 │   ├── App.jsx                 # Arquivo principal que gerencia as rotas.
 │   ├── index.jsx               # Ponto de entrada do React.
